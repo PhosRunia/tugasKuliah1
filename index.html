@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percobaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <H1> Form Pendaftaran</H1><hr>
+        <PRE>
+        <div>
+            <label for="nim">Nim</label>
+            <input type="text" size="11" name="nim" id="nim">
+            <label for="nama">Nama</label>
+            <input type="text" size="25" name="nama" id="nama">
+            <label for="nama">Jenis Kelamin</label>
+            <input type="radio" name="jkel" value="Pria">Pria 
+            <input type="radio" name="jkel" value="Wanita">Wanita
+            <label for="nama">Agama</label>
+            <select name=agama><option value="Islam">Islam</option>
+                <option value="Katoholik">Katholik</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </div>
+        <div>
+            <label for="nama">Status</label>
+            <input type="radio" name="status" value="kawin">Kawin 
+            <input type="radio" name="status" value="belumkawin">Belum Kawin
+            <label for="nama">Jurusan</label>
+            <select name="jurusan" Size="1">
+                <option value ="Teknik Informatika"> Teknik Informatika </option>
+                <option value ="Manajemen Informatika"> Manajemen Informatika 
+                </option>
+                <option value ="Teknik Komputer"> Teknik Komputer </option>
+                <option value ="Teknik Industri"> Teknik Industri </option>
+            </select> 
+            <label for="nama">Hoby</label>
+            <input type="checkbox" name="hoby" value="Futsal">Futsal <input 
+            type="checkbox" name="hoby" value="Renang">Renang <input 
+            type="checkbox" name="hoby" value="Traveling">Traveling
+            <label for="nama">Keterangan</label>
+            <textarea name="ket" rows="3" cols="30"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="kirim" class="btn">
+            <input type="reset" value="ulang" class="btn">
+        </div>
+    </PRE>
+    </form>
+</body>
+</html>

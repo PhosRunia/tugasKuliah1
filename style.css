@@ -1,0 +1,27 @@
+body{
+    background: rgb(73, 3, 119);
+    color: #fff;
+}
+label {
+    font-size: 1.4rem;
+}
+pre{
+    display: flex;
+}
+
+input,select,textarea{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 30px;
+    font-size: 0.9rem;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
